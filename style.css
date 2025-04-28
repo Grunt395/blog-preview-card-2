@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-    width: 400px;
-    background-color: white;
+    width: 375px;
+    background-color: hsl(0, 0%, 100%);
     border: 2px solid black;
     border-radius: 20px;
     padding: 25px;
@@ -48,9 +48,15 @@ body {
 }
 
 .title {
+    display: inline-block;
     color: hsl(0, 0%, 7%);
     font-weight: 800;
     margin-bottom: 20px;
+}
+
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .description {
